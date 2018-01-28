@@ -1,5 +1,5 @@
 %SheHacks 2018
-%(c) Team Spectra - Jan 2018
+%(c) Team Spectra - Jan 2018 // License: MIT
 %Oumaima Lamaakel
 %Karina Popovich
 %Joy Cheng
