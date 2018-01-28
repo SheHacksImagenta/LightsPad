@@ -11,40 +11,12 @@
 %LEDs with random patterns where the user needs to click on pushbutton in
 %accordance with the lighting pattern to help them relieve stress.
 
-a.pinMode(3,'output');
-a.pinMode(4,'output');
-a.pinMode(5,'output');
+%If using the conventional Arduino UNO;
+%a=arduino('/dev/tty.usbmodem1411','Uno');
 
-    for R = 1:5  %Green Light
-        a.digitalWrite(3,1);
-        pause(0.05);
-        a.digitalWrite(3,0);
-        pause(0.05);
-    end
+a=serial('/dev/tty.usbmodem1411');
 
-    for R = 1:5  %Yellow Light
-        a.digitalWrite(4,1);
-        pause(0.05);
-        a.digitalWrite(4,0);
-        pause(0.05);
-    end
-
-    for R = 1:5  %Red Light
-        a.digitalWrite(5,1);
-        pause(0.005);
-        a.digitalWrite(5,0);
-        pause(0.005);
-    end
-
-    
-
-
-%%
-
-%Manege 
-%Author: Oumaima Lamaakel
-
-%a=arduino('/dev/tty.usbmodem1411')
+%%a=arduino('/dev/tty.usbmodem1411')
 
 NUM=input('Please input the number of iterations wished:  ');
 
