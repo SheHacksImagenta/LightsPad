@@ -33,176 +33,144 @@ while NUM>NUM-1 & NUM>0
     a.pinMode(6,'output');
     a.pinMode(5,'output');
     a.pinMode(4,'output');
-    a.pinMode(3,'output');
-    %a.pinMode(2,'output');
 
-
-    for R = 1:2  %Green Light
+    for R = 1:2  
     a.digitalWrite(13,1);
     pause(0.005);
     a.digitalWrite(13,0);
     pause(0.005);
     end
-
-         
-    for R = 4:8 %Red Light
+  
+    for R = 4:8
     a.digitalWrite(12,1);
     pause(0.005);
     a.digitalWrite(12,0);
     pause(0.005);
     end
 
-    for R = 8:12 %Green Light
+    for R = 8:12 
     a.digitalWrite(11,1);
     pause(0.005);
     a.digitalWrite(11,0);
     pause(0.005);
     end
 
-    for    R = 12:16 %Red Light
+    for    R = 12:16 
     a.digitalWrite(10,1);
     pause(0.005);
     a.digitalWrite(10,0);
     pause(0.005);
     end
 
-    for R = 16:20 %Green Light
+    for R = 16:20 
     a.digitalWrite(9,1);
     pause(0.005);
     a.digitalWrite(9,0);
     pause(0.005);
     end
 
-    for R = 20:24 %Red Light
+    for R = 20:24 
     a.digitalWrite(8,1);
     pause(0.005);
     a.digitalWrite(8,0);
     pause(0.005);
     end
 
-    for R = 24:28 %Green Light
+    for R = 24:28 
     a.digitalWrite(7,1);
     pause(0.005);
     a.digitalWrite(7,0);
     pause(0.005);
     end
 
-    for R = 28:32 %Red Light
+    for R = 28:32 
     a.digitalWrite(6,1);
     pause(0.005);
     a.digitalWrite(6,0);
     pause(0.005);
     end
 
-    for R = 32:36 %Red Light
+    for R = 32:36 
     a.digitalWrite(5,1);
     pause(0.005);
     a.digitalWrite(5,0);
     pause(0.005);
     end
 
-    for R = 36:40 %Green Light
+    for R = 36:40 
     a.digitalWrite(4,1);
     pause(0.005);
     a.digitalWrite(4,0);
     pause(0.005);
     end
 
-    for R = 40:44 %Red Light
-    a.digitalWrite(3,1);
+   %Reverse
+
+   
+    for R = 32:36 
+    a.digitalWrite(4,1);
     pause(0.005);
-    a.digitalWrite(3,0);
-    pause(0.005);
-    end
-
-    %for R = 44:48 %Green Light
-    %a.digitalWrite(2,1);
-    %pause(0.005);
-    %a.digitalWrite(2,0);
-    %pause(0.005);
-    %end
-
-
-    %Reverse
-
-   % for R = 44:48 %Green Light
-    %a.digitalWrite(2,1);
-    %pause(0.005);
-    %a.digitalWrite(2,0);
-    %pause(0.005);
-    %end
-
-    for R = 40:44 %Red Light
-    a.digitalWrite(3,1);
-    pause(0.005);
-    a.digitalWrite(3,0);
+    a.digitalWrite(4,0);
     pause(0.005);
     end
 
-    for R = 32:36 %Red Light
+    for R = 32:36 
     a.digitalWrite(5,1);
     pause(0.005);
     a.digitalWrite(5,0);
     pause(0.005);
     end
 
-    for R = 32:36 %Red Light
-    a.digitalWrite(5,1);
-    pause(0.005);
-    a.digitalWrite(5,0);
-    pause(0.005);
-    end
-
-    for R = 28:32 %Red Light
+    for R = 28:32 
     a.digitalWrite(6,1);
     pause(0.005);
     a.digitalWrite(6,0);
     pause(0.005);
     end
 
-    for R = 24:28 %Green Light
+    for R = 24:28 
     a.digitalWrite(7,1);
     pause(0.005);
     a.digitalWrite(7,0);
     pause(0.005);
     end
 
-    for R = 20:24 %Red Light
+    for R = 20:24 
     a.digitalWrite(8,1);
     pause(0.005);
     a.digitalWrite(8,0);
     pause(0.005);
     end
 
-    for R = 16:20 %Green Light
+    for R = 16:20
     a.digitalWrite(9,1);
     pause(0.005);
     a.digitalWrite(9,0);
     pause(0.005);
     end
 
-    for R = 12:16 %Red Light
+    for R = 12:16
     a.digitalWrite(10,1);
     pause(0.005);
     a.digitalWrite(10,0);
     pause(0.005);
     end
 
-    for R = 8:12 %Green Light
+    for R = 8:12
     a.digitalWrite(11,1);
     pause(0.005);
     a.digitalWrite(11,0);
     pause(0.005);
     end
 
-    for R = 4:8 %Red Light
+    for R = 4:8 
     a.digitalWrite(12,1);
     pause(0.005);
     a.digitalWrite(12,0);
     pause(0.005);
     end
 
-    for R = 1:2  %Green Light
+    for R = 1:2 
     a.digitalWrite(13,1);
     pause(0.005);
     a.digitalWrite(13,0);
