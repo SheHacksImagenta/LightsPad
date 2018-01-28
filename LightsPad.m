@@ -16,7 +16,7 @@
 
 a=serial('/dev/tty.usbmodem1411');
 
-%%a=arduino('/dev/tty.usbmodem1411')
+%a=arduino('/dev/tty.usbmodem1411')
 
 NUM=input('Please input the number of iterations wished:  ');
 
@@ -179,3 +179,8 @@ while NUM>NUM-1 & NUM>0
     
     NUM=NUM-1
 end
+
+%%
+
+%
+
